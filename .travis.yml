@@ -1,1 +1,6 @@
 language: java
+
+deploy:
+  provider: heroku
+  api_key: 0af99a2f-056b-4201-a0c4-fb3cd8f355bf
+  app: rest-practise
