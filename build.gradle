@@ -27,5 +27,10 @@ targetCompatibility = 1.8
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-thymeleaf")
     compile("org.springframework.boot:spring-boot-devtools")
+    compile group: 'org.codehaus.jackson', name: 'jackson-mapper-asl', version: '1.9.13'
+    compileOnly 'org.projectlombok:lombok:1.16.16'
+
+
+    testCompile group: 'org.mockito', name: 'mockito-all', version: '1.9.5'
     testCompile("junit:junit")
 }
