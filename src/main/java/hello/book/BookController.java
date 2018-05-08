@@ -10,10 +10,6 @@ public class BookController {
 
   @RequestMapping("/book")
   public Book book() {
-    try {
-      return bookService.returnBook();
-    } catch (Exception e) {
-      throw e;
-    }
+    return bookService.returnBook();
   }
 }
