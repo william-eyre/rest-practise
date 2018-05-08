@@ -2,9 +2,9 @@ package hello.book;
 
 public class Book {
 
-  String title;
-  int ISBN;
-  String blurb;
+  private String title;
+  private int ISBN;
+  private String blurb;
 
   public Book(String title, int ISBN, String blurb) {
     this.title = title;

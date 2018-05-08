@@ -6,12 +6,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class BookController {
 
-  private Book bookExample = new Book("Dust of Dreams", 1323123, "Flying cities and very angry dead people");
+  private BookService bookService = new BookService();
 
   @RequestMapping("/book")
   public Book book() {
     try {
-      return bookExample;
+      return bookService.returnBook();
     } catch (Exception e) {
       throw e;
     }
