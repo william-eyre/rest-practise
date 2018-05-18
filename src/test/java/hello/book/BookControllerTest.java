@@ -25,7 +25,7 @@ public class BookControllerTest {
   public void shouldReturnABook() throws Exception {
     mockMvc.perform(MockMvcRequestBuilders.get("/book").accept(MediaType.APPLICATION_JSON))
         .andExpect(status().isOk())
-        .andExpect(content().json("{'title':'Dust of Dreams', 'isbn': 1323123, 'blurb': 'Flying cities and very angry dead people'}"));
+        .andExpect(content().json("{'title':'The Malazan Book of the Fallen', 'isbn': 23123123, 'blurb': 'Flying cities and angry Jaghut'}"));
   }
 
 }
