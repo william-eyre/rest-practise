@@ -29,7 +29,8 @@ dependencies {
     compile("org.springframework.boot:spring-boot-devtools")
     compile group: 'org.codehaus.jackson', name: 'jackson-mapper-asl', version: '1.9.13'
     compileOnly 'org.projectlombok:lombok:1.16.16'
-
+    compile 'org.postgresql:postgresql:9.4.1212'
+    compile 'org.hibernate:hibernate-java8:5.0.11.Final'
 
     testCompile group: 'org.mockito', name: 'mockito-all', version: '1.9.5'
     testCompile("junit:junit")

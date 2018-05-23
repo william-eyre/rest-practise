@@ -1,0 +1,20 @@
+FORMAT: 1A
+HOST: http://polls.apiblueprint.org/
+
+# API blueprint test
+
+Gets a book title, isbn and blurb back.
+
+## Questions Collection [/book]
+
+### Books list [GET]
+
++ Response 200 (application/json)
+
+        [
+            {
+                "title": "Dust of Dreams"
+                "isbn": 12345
+                "blurb": "Flying cities and very angry dead people"
+            }
+        ]

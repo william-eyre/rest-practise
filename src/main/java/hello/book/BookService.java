@@ -3,7 +3,7 @@ package hello.book;
 import org.springframework.stereotype.Component;
 
 @Component
-public class BookService {
+public class BookService implements BookInterface {
 
   public Book returnBook() {
    return Book.builder()

@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: ${postgres://hoiticuerjnsbk:7b49e8f73f4fff3a028ef446e22667e7ff2e7db57b5a111b1340a975638a0b85@ec2-50-19-224-165.compute-1.amazonaws.com:5432/d30vc3hqj9ljb1}
+    username: ${hoiticuerjnsbk}
+    password: ${7b49e8f73f4fff3a028ef446e22667e7ff2e7db57b5a111b1340a975638a0b85}
